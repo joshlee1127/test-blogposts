@@ -1,0 +1,48 @@
+---
+title: "Next.js 13"
+date: "2023-09-14"
+tags: ["next.js", "nextjs"]
+---
+
+# Next.js 13
+
+Tags: https://www.youtube.com/watch?v=6h649f2fB9Q&list=PL0Zuz27SZ-6Pk-QJIdGd1tGZEzy9RTgtj&index=1
+
+<Video id="6h649f2fB9Q" />
+
+SSG = Static Side Generation vs Server Side Generation > Nextjs 可以 hybrid 這二個動作
+
+SSG 對於 CND 運作來說是必須的
+
+```jsx
+.
+├── README.md
+├── app #page api components都在這
+├── next-env.d.ts
+├── next.config.js
+├── node_modules
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public  # image等靜態資源
+├── tailwind.config.ts
+└── tsconfig.json
+```
+
+```jsx
+joshlee@jump5:/mnt/c/Users/admin.JOSH/Desktop/myLab/next-js-course/next01/app$ tree -L 2
+.
+├── favicon.ico
+├── globals.css
+├── layout.tsx #lauout頁面
+└── page.tsx #主頁面
+```
+
+啟動 > npm run dev
+
+![Untitled](Next%20js%2013%205587c93769564c9585d176629143a80d/Untitled.png)
+
+<CustomImage
+    src="https://raw.githubusercontent.com/joshlee1127/test-blogposts/main/5587c93769564c9585d176629143a80d/Untitled.png"
+    alt="5587c93769564c9585d176629143a80d"
+/>
